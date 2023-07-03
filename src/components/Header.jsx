@@ -2,6 +2,9 @@ import React from 'react';
 import logo from '../assets/logo-text.png';
 
 function Header() {
+
+    const whatsappMessageLink = "https://wa.link/wvzfe1";
+    
     return (
         <section id="header">
         <nav className="navbar text-base-100 bg-neutral">
@@ -42,7 +45,7 @@ function Header() {
                 <a href="#" className=""><img src={logo} alt="joyamate-logo" className="h-[6vh] m-0"></img></a>
             </div>
             <div className="navbar-end">
-                <a href="#" className="text-4xl transition-transform duration-300 hover:scale-110 py-1 px-2">
+                <a href={whatsappMessageLink} target="_blank" className="text-4xl transition-transform duration-300 hover:scale-110 py-1 px-2">
                 <ion-icon name="logo-whatsapp"></ion-icon>
                 </a>
             </div>
