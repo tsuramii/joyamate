@@ -7,7 +7,7 @@ function Header() {
     
     return (
         <section id="header">
-        <nav className="navbar text-base-100 bg-neutral">
+        <nav className="navbar text-base-100 bg-neutral fixed">
            <div className="navbar-start hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><a href="hero" className="hover:text-secondary">Inicio</a></li>
