@@ -20,7 +20,7 @@ function Header() {
                             </ul>
                         </details>
                     </li>
-                    <li><a href="contact" className="hover:text-secondary">Contactános</a></li>
+                    <li><a href="#contact" className="hover:text-secondary">Contactános</a></li>
                 </ul>
             </div>
             <div className="navbar-center">

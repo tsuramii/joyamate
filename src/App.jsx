@@ -2,6 +2,7 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import ProductSection from './components/ProductSection'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroSection/>
       <ProductSection />
+      <Contact />
       <Footer />
     </>
   )
