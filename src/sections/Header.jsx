@@ -15,8 +15,8 @@ function Header() {
                         <details>
                             <summary className="hover:text-secondary">Productos</summary>
                             <ul className="p-2 text-neutral">
-                            <li><a href="#mates" className="hover:text-primary">Mates</a></li>
-                            <li><a href="#joyeria" className="hover:text-primary">Joyeria</a></li>
+                            <li><a href="#seleccion-mates" className="hover:text-primary">Mates</a></li>
+                            <li><a href="#seleccion-joyeria" className="hover:text-primary">Joyeria</a></li>
                             </ul>
                         </details>
                     </li>
@@ -35,8 +35,8 @@ function Header() {
                         <li>
                             <a href="#products">Productos</a>
                             <ul className="p-2">
-                                <li><a href="#mates">Mates</a></li>
-                                <li><a href="#joyeria">Joyeria</a></li>
+                                <li><a href="#seleccion-mates">Mates</a></li>
+                                <li><a href="#seleccion-joyeria">Joyeria</a></li>
                             </ul>
                         </li>
                         <li><a href="#contact">Contactános</a></li>
