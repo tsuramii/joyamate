@@ -52,7 +52,7 @@ function Contact() {
               </div>
               <button
                 type="submit"
-                className="btn btn-primary w-full"
+                className="btn btn-outline btn-primary w-full"
               >
                 Enviar
               </button>
