@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProductSection() {
+function Product() {
     return (
         <section id="products" className="lg:mx-10 py-5">
             <div className='flex'>
@@ -150,4 +150,4 @@ function ProductSection() {
     )
 }
 
-export default ProductSection;
+export default Product;

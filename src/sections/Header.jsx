@@ -10,7 +10,7 @@ function Header() {
         <nav className="navbar text-base-100 bg-neutral fixed z-10">
            <div className="navbar-start hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a href="#hero" className="hover:text-secondary">Inicio</a></li>
+                    <li><a href="#banner" className="hover:text-secondary">Inicio</a></li>
                     <li tabIndex="0">
                         <details>
                             <summary className="hover:text-secondary">Productos</summary>
@@ -31,7 +31,7 @@ function Header() {
                         </svg>
                     </label>
                     <ul tabIndex="0" className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-neutral bg-base-100 rounded-box w-52">
-                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#banner">Inicio</a></li>
                         <li>
                             <a href="#products">Productos</a>
                             <ul className="p-2">

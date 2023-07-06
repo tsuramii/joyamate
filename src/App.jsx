@@ -1,15 +1,15 @@
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import ProductSection from './components/ProductSection'
-import Footer from './components/Footer'
-import Contact from './components/Contact'
+import Header from './sections/Header'
+import Banner from './sections/Banner'
+import ProductSection from './sections/Product'
+import Footer from './sections/Footer'
+import Contact from './sections/Contact'
 
 function App() {
 
   return (
     <>
       <Header />
-      <HeroSection/>
+      <Banner/>
       <ProductSection />
       <Contact />
       <Footer />
