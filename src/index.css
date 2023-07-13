@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Hero */
 
 .fadeIn {
@@ -18,3 +22,5 @@
     transform: translateY(0);
   }
 }
+
+

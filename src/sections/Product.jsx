@@ -1,5 +1,5 @@
 import React from 'react';
-import FeaturedProducts from '../components/featuredProducts';
+import FeaturedProducts from '../components/FeaturedProducts';
 import productsData from '../data/products.json';
 function Product() {
     return (
