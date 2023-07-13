@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PriceConverter from './PriceConverter';
 
 const ProductList = ({ products }) => {
     const [categoryFilter, setCategoryFilter] = useState('all');
     const [searchTerm, setSearchTerm] = useState('');
-    const [setSelectedProduct] = useState(null);
+    const [selectedProduct, setSelectedProduct] = useState(null);
     
     const handleBuyNow = (product) => {
         const message = `Hola JOYAMATE, me interesaría comprar el/la ${product.name}`;

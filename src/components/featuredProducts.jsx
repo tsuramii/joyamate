@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PriceConverter from './PriceConverter';
 
 const FeaturedProducts = ({ products }) => {
-  const [setSelectedProduct] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
