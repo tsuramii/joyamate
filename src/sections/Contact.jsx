@@ -15,7 +15,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="flex items-center justify-center min-h-screen bg-base-200">
+    <section id="contact" className="flex items-center justify-center min-h-screen py-10 bg-base-200">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
         <div className="md:w-1/2 bg-white p-8 rounded shadow-lg">
           <div className="h-full flex flex-col justify-center">

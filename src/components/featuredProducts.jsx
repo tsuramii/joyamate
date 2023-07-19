@@ -32,11 +32,11 @@ const FeaturedProducts = ({ products }) => {
           <p>Aquí te presento una pequeña selección de nuestros mates artesanales que despiertan lo más agudo de los sentidos. </p>
         </div>
         <div>
-          <div className="md:flex my-10 gap-3 lg:gap-10 lg:mx-[10vw] justify-center flex-wrap">
+          <div className="md:flex my-10 mx-5 gap-3 lg:gap-10 justify-center flex-wrap">
             {featuredMateProducts.slice(0, 3).map((product) => (
               <div
                 key={product.id}
-                className="card md:w-1/3 xl:w-1/5 bg-base-100 shadow-xl hover:scale-105 transition-all delay-100 cursor-pointer"
+                className="card my-5 md:w-1/3 xl:w-1/5 bg-base-100 shadow-xl hover:scale-105 transition-all delay-100 cursor-pointer"
                 onClick={() => handleProductClick(product)}
               >
                 <figure className="w-full h-80">
@@ -66,11 +66,11 @@ const FeaturedProducts = ({ products }) => {
           <h1 className="font-bold font-serif text-4xl pb-1">Nuestra selección de Joyeria criolla</h1>
           <p>Nuestra selección te cautivará con su encanto único, cada pieza artesanal despierta los sentidos, refleja la pasión y la tradición de nuestra cultura. </p>
         </div>
-        <div className="md:flex my-10 gap-3 lg:gap-10 lg:mx-[10vw] justify-center flex-wrap">
+        <div className="md:flex my-10 gap-3 justify-center flex-wrap">
           {featuredJoyeriaProducts.slice(0, 3).map((product) => (
             <div
             key={product.id}
-            className="card md:w-1/3 xl:w-1/5 bg-base-100 shadow-xl hover:scale-105 transition-all delay-100 cursor-pointer"
+            className="card my-10 mx-5 md:w-1/3 xl:w-1/5 bg-base-100 shadow-xl hover:scale-105 transition-all delay-100 cursor-pointer"
             onClick={() => handleProductClick(product)}
           >
             <figure className="w-full h-80">
@@ -99,7 +99,7 @@ const FeaturedProducts = ({ products }) => {
               >
                 ✕
               </button>
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <img src={product.image} alt={product.name} className="w-full h-full object-cover rounded-lg" />
                 </div>

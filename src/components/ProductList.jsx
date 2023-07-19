@@ -71,7 +71,7 @@ const ProductList = ({ products }) => {
                 </div>
             </div>
 
-            <div className="flex flex-wrap gap-5 justify-center mx-10">
+            <div className="flex flex-wrap gap-5 justify-center mx-5">
                 {filteredProducts.map((product) => (
                     <div key={product.id} className="card md:w-1/3 xl:w-1/5 bg-base-100 shadow-xl hover:scale-105 transition-all delay-100 cursor-pointer" onClick={() => handleProductClick(product)}>
                         <figure className="w-full h-80">
@@ -96,7 +96,7 @@ const ProductList = ({ products }) => {
                 <dialog key={product.id} id={`modal_${product.id}`} className="modal">
                     <form method="dialog" className="modal-box max-w-3xl">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={handleModalClose}>✕</button>
-                        <div className="grid grid-cols-2 gap-8">
+                        <div className="grid md:grid-cols-2 gap-8">
                             <div>
                                 <img src={product.image} alt={product.name} className="w-full h-full object-cover rounded-lg" />
                             </div>
