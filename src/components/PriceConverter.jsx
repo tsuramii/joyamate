@@ -7,7 +7,7 @@ const PriceConverter = ({ priceInUSD }) => {
   useEffect(() => {
     const fetchDollarPrice = async () => {
       try {
-        const response = await fetch('https://dolar-api-argentina.vercel.app/v1/dolares/blue');
+        const response = await fetch("https://dolarapi.com/v1/dolares/blue");
         const data = await response.json();
         const dollarPrice = data.compra;
         setDollarPrice(dollarPrice);
